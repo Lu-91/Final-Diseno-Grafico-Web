@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Clínica Estética Armonía</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="Images/hoja.png" type="image/logo">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-nav">
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">
+                    <img src="Images/Logo.png" alt="Logotipo" class="logo-img-small">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link" href="servicios.html">Servicios</a></li>
+                        <li class="nav-item"><a class="nav-link" href="nosotros.html">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Banner -->
+    <section id="banner">
+        <div class="carousel-inner">
+            <div>
+                <img src="Images/happy_clinic.jpeg" class="d-block w-100" alt="Banner de la clínica">
+                <div class="carousel-caption">
+                    <h2>Transforma tu apariencia, realza tu confianza</h2>
+                    <p>Descubre nuestros tratamientos de vanguardia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios destacados -->
+    <section id="servicios-destacados" class="py-5">
+        <div class="container">
+            <h2 class="text-center">Nuestros Servicios Destacados</h2>
+            <hr>
+            <div class="row text-center">
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <img src="Images/botox.jpg" alt="Faciales" class="rounded-circle img-fluid small-img">
+                    <h3>Bótox</h3>
+                    <p>Rejuvenece tu piel con nuestro tratamiento de bótox.</p>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <img src="Images/peeling-quimico.jpg" alt="Corporales" class="rounded-circle img-fluid small-img">
+                    <h3>Peeling Químico</h3>
+                    <p>Renueva tu piel con nuestro peeling químico.</p>
+                    <a href="servicios.html" class="btn btn-success">Ver más</a>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 mb-4">
+                    <img src="Images/depilacion-laser.jpg" alt="Corporales" class="rounded-circle img-fluid small-img">
+                    <h3>Depilación Láser</h3>
+                    <p>Elimina el vello no deseado de manera definitiva.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <hr>
+    <!-- Introducción -->
+    <section id="intro" class="py-5">
+        <div class="container text-center">
+            <h2>Bienvenidos a Clínica Estética Armonía</h2>
+            <p>Descubre cómo mejorar tu bienestar físico y emocional con nuestros servicios de estética avanzada.</p>
+            <a href="nosotros.html" class="btn btn-success">Ver más</a>
+        </div>
+    </section>
+    <hr>
+    <!-- Reseñas - Bootstrap Component -->
+    <section id="testimonios" class="py-5">
+        <div class="container text-center">
+            <h2>Reseñas</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="card p-3">
+                        <img src="Images/Ana.png" alt="Cliente 1" class="rounded-circle img-fluid small-img">
+                        <p class="card-text">"Los tratamientos faciales son maravillosos, mi piel nunca se había visto tan bien."</p>
+                        <p class="text-muted">- Ana Gómez</p>
+                     </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="card p-3">
+                        <img src="Images/Juan.png" alt="Cliente 2" class="rounded-circle img-fluid small-img">
+                        <p class="card-text">"Excelentes resultados sin dolor, y el personal es muy atento."</p>
+                        <p class="text-muted">- Juan Pérez</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="card p-3">
+                        <img src="Images/Marta.png" alt="Cliente 3" class="rounded-circle img-fluid small-img">
+                        <p class="card-text">"Mi experiencia fue increíble, recomiendo la clínica al 100%."</p>
+                        <p class="text-muted">- Marta Ruiz</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-12 mb-4">
+                    <div class="card p-3">
+                        <img src="Images/Laura.png" alt="Cliente 4"  class="rounded-circle img-fluid small-img">
+                        <p class="card-text">"El tratamiento ha cambiado mi vida, me siento mejor conmigo misma."</p>
+                        <p class="text-muted">- Laura Fernández</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center p-4 bg-dark-footer text-white">
+        <p>Ludmila Schneier || EMAE || 2024</p>
+        <div>
+            <a href="https://instagram.com" target="_blank"><img src="Images/instagram.png" alt="Instagram"></a>
+            <a href="https://facebook.com" target="_blank"><img src="Images/facebook.png" alt="Facebook"></a>
+            <a href="https://twitter.com" target="_blank"><img src="Images/twitter.png" alt="Twitter"></a>
+        </div>
+    </footer>
+</body>
+</html>
